@@ -1,23 +1,24 @@
 # Simple Blog with Next.js
 
-[Simple Blog](#):
+[Demo Simple Blog](https://simple-blog-nr54gwvel.now.sh/)
 
 ## How to use:
 
-Clone the project [repo](https://github.com/LiliyaGavrishchishena/simple-blog.git):
+Clone the project:
 
 ```sh
+git clone https://github.com/LiliyaGavrishchishena/simple-blog.git
 cd simple-blog
 ```
 
-Install it and run:
+Install all dependencies and run:
 
 ```sh
 npm install
 npm run dev
 ```
 
-Open your browser [project](http://localhost:3000/):
+Open your browser [http://localhost:3000](http://localhost:3000/):
 
 ## Functional Requirements
 
@@ -52,9 +53,3 @@ The design is up to you. Simple, minimalistic and clean would be nice. As a gene
 -   The code should be clean, passing ESLint checks and simple to understand
 -   Task usually takes from 4 to 6 hours. If you need more time, you're good to take it and it's appreciated, but results should be sent no later than 48 hours after the start
 -   Skills to write clean business logic evaluated higher than nice markup
-
-## Deploy
-
-Deploy the example using [ZEIT Now](https://zeit.co/now):
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-redux)
