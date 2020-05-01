@@ -3,5 +3,5 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { reducers } from './posts';
 
 export const initializeStore = () => {
-    return createStore(reducers, composeWithDevTools(applyMiddleware()));
+  return createStore(reducers, composeWithDevTools(applyMiddleware()));
 };

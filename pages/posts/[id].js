@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { withRedux } from '../../lib/redux';
 import { types } from '../../store/posts';
 import styled from 'styled-components';
-import Layout from '../../components/Layout';
+import Layout from '../../components/Layout/Layout';
 
 const Content = styled.div`
   display: flex;
@@ -26,10 +26,7 @@ const fetcher = async (url) => {
 
 function Post() {
   const { query } = useRouter();
-  const { data, error } = useSWR(
-    () => query.id && `/api/posts/${query.id}`,
-    fetcher
-  );
+  const { data, error } = useSWR(() => query.id && `/api/posts/${query.id}`, fetcher);
 
   if (error) return <div>{error.message}</div>;
   if (!data) return <div>Loading...</div>;

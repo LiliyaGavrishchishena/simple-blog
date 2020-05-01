@@ -486,10 +486,10 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true!./":
-/*!*******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true ***!
-  \*******************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true!./":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true ***!
+  \********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -497,11 +497,11 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
     (window.__NEXT_P = window.__NEXT_P || []).push([
       "/_app",
       function () {
-        var mod = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js");
+        var mod = __webpack_require__(/*! private-next-pages/_app.tsx */ "./pages/_app.tsx");
         if (true) {
-          module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function () {
+          module.hot.accept(/*! private-next-pages/_app.tsx */ "./pages/_app.tsx", function () {
             if (!next.router.components["/_app"]) return;
-            var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js");
+            var updatedPage = __webpack_require__(/*! private-next-pages/_app.tsx */ "./pages/_app.tsx");
             next.router.update("/_app", updatedPage);
           });
         }
@@ -3437,10 +3437,10 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3454,7 +3454,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "C:\\Users\\Liliya\\Desktop\\frontend\\simple-blog\\pages\\_app.js";
+    _jsxFileName = "C:\\Users\\Liliya\\Desktop\\frontend\\simple-blog\\pages\\_app.tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -3467,8 +3467,8 @@ var MyApp = function MyApp(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3,
-      columnNumber: 45
+      lineNumber: 4,
+      columnNumber: 55
     }
   }));
 };
@@ -3574,13 +3574,13 @@ module.exports = content.locals || {};
 /***/ }),
 
 /***/ 0:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true ./node_modules/next/dist/client/router.js ***!
-  \*****************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true ./node_modules/next/dist/client/router.js ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js&hotRouterUpdates=true!./");
+__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.tsx&hotRouterUpdates=true!./");
 module.exports = __webpack_require__(/*! C:\Users\Liliya\Desktop\frontend\simple-blog\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 

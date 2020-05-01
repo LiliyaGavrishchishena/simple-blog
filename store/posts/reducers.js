@@ -1,4 +1,5 @@
 import types from './types';
+import { Post } from '../../models/Post';
 
 const init = {
   posts: [],
